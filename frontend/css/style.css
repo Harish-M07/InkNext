@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 :root {
     --background-color: #F2EDE4;
     --text-color: #242424;
@@ -89,11 +89,7 @@ body {
 }
 .tag-link:hover { background-color: #ddd5c9; }
 .loader { text-align: center; padding: 4rem; font-size: 1.2rem; color: var(--meta-text-color); }
-/* --- Add this at the end of your style.css --- */
 
-/* ============================================= */
-/* ============== Mobile Styles ============== */
-/* ============================================= */
 @media (max-width: 768px) {
 
     /* --- General Layout --- */
@@ -150,7 +146,7 @@ body {
         font-size: 0.9rem;
     }
 }
-=======
+
 :root {
     --background-color: #F2EDE4;
     --text-color: #242424;
@@ -241,4 +237,3 @@ body {
 }
 .tag-link:hover { background-color: #ddd5c9; }
 .loader { text-align: center; padding: 4rem; font-size: 1.2rem; color: var(--meta-text-color); }
->>>>>>> f460b6ef0f86bd1e5c8ad7befc75e75a83c0f5e6
