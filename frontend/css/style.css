@@ -36,6 +36,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10px; /* space between logo and text */
 }
 
 #logo-link {
@@ -47,6 +48,7 @@ body {
 
 .logo {
     height: 40px;
+    width: auto;
     margin-right: 10px;
 }
 
@@ -189,12 +191,9 @@ body {
         padding: 0.75rem 1rem;
     }
 
-    .header-content {
-    display: flex;
-    align-items: center;
-    gap: 10px; /* space between logo and text */
-}
-
+    .header-content h1 {
+        font-size: 1.5rem;
+    }
 
     .search-container {
         width: 150px;
@@ -217,9 +216,9 @@ body {
     .post-snippet {
         font-size: 0.9rem;
     }
-    .logo {
-    height: 40px; /* height of the logo */
-    width: auto;  /* keeps aspect ratio */
-}
 
+    .logo {
+        height: 40px;
+        width: auto;
+    }
 }
