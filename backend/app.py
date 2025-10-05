@@ -10,7 +10,7 @@ import re
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/api/*": {"origins": "https://inknext-1.onrender.com"}})
 
 
 def fetch_blogger_posts():
