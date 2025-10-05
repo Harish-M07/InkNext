@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const API_BASE_URL = 'https://inknext.onrender.com'; // ✅ your deployed Flask backend
+    const API_BASE_URL = 'https://inknext.onrender.com'; 
 
     const mainFeed = document.getElementById('main-feed');
     const recommendedTagsContainer = document.getElementById('recommended-tags');
