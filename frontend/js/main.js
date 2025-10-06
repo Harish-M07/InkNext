@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const API_BASE_URL = 'https://inknest-api.onrender.com/api';
-
+const API_BASE_URL = 'https://inknext.onrender.com/api';
     const mainFeed = document.getElementById('main-feed');
     const recommendedTagsContainer = document.getElementById('recommended-tags');
     const searchInput = document.getElementById('search-input');
